@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run renttopriceapp.py
+web: sh setup.sh && streamlit run renttopriceappdeploy.py
