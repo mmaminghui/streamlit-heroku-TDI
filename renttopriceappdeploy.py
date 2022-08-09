@@ -13,7 +13,7 @@ import pandas as pd
 
 
 
-pickle_in = open("/Users/minghuima/Desktop/my/renttopricemodel.py","rb")
+pickle_in = open("renttopricemodel.py","rb")
 #renttopricemodel=pickle.load(pickle_in)
 renttopricemodel=pickle_in
 
