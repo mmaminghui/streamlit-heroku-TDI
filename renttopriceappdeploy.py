@@ -71,7 +71,7 @@ def ratio_prediction(zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,b
         
     """
    
-    prediction=renttopricemodel.predict([[zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,bedrooms,annualtax,annualinsurance]])*100
+    prediction=renttopricemodel.predict([[zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,bedrooms,annualtax,annualinsurance]])
     #print prediction
     return prediction
 
@@ -98,7 +98,7 @@ def main():
     result=""
     if st.button("Predict"):
         result=ratio_prediction(zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,bedrooms,annualtax,annualinsurance)
-    st.success('The rent-to-price ratio is {}'.format(result))
+    st.success('The rent-to-price ratio is {}%'.format(result))
 
     if st.button("About"):
         st.text("This app is based on the transaction data (2022.1-2022.6) in Baltimore County")
