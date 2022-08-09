@@ -16,7 +16,7 @@ import joblib
 #pickle_in = open("/Users/minghuima/Desktop/my/analysis.pkl","rb")
 #renttopricemodel=pickle.load(pickle_in)
 #renttopricemodel=pickle_in
-renttopricemodel = joblib.load('/Users/minghuima/Desktop/my/analysis.pkl.z')  
+renttopricemodel = joblib.load('analysis.pkl.z')  
 
 
 def welcome():
