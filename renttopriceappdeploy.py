@@ -71,7 +71,7 @@ def ratio_prediction(zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,b
         
     """
    
-    prediction=renttopricemodel.predict([[zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,bedrooms,annualtax,annualinsurance]])
+    prediction=renttopricemodel.predict([[zipcode,longitude,latitude,yearbuilt,livingarea,bathrooms,bedrooms,annualtax,annualinsurance]])*100
     #print prediction
     return prediction
 
