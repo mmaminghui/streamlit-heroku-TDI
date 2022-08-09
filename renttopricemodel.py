@@ -17,7 +17,8 @@ from sklearn.pipeline import Pipeline
 # In[177]:
 
 
-Clean = pd.read_pickle('zillowmodelcleandata.pkl')
+#Clean = pd.read_pickle('zillowmodelcleandata.pkl')
+Clean = pickle.load(open('Clean.pkl','rb'))
 
 
 # In[178]:
