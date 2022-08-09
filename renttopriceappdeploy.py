@@ -12,9 +12,10 @@ import numpy as np
 import pandas as pd
 
 
-#pickle_in = open("/Users/minghuima/Desktop/my/analysis1.pkl","rb")
-pickle_in = open("analysis1.pkl","rb")
-renttopricemodel=pickle.load(pickle_in)
+
+pickle_in = open("/Users/minghuima/Desktop/my/renttopricemodel.py","rb")
+#renttopricemodel=pickle.load(pickle_in)
+renttopricemodel=pickle_in
 
 def welcome():
     return "Welcome All"
