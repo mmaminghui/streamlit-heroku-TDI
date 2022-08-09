@@ -84,19 +84,19 @@ y_pred = analysis.predict(X_test)
 # In[187]:
 
 
-r2_score(y_test, y_pred1)
+#r2_score(y_test, y_pred1)
 
 
 # In[188]:
 
 
-analysis.named_steps['regr'].feature_importances_
+#analysis.named_steps['regr'].feature_importances_
 
 
 # In[189]:
 
 
-pickle.dump(analysis,open('analysis.pkl','wb'))
+#pickle.dump(analysis,open('analysis.pkl','wb'))
 
 
 # In[ ]:
