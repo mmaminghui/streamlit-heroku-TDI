@@ -17,13 +17,13 @@ from sklearn.pipeline import Pipeline
 # In[177]:
 
 
-Clean = pd.read_pickle('/Users/minghuima/Desktop/Industry/2. TDI data incubator/Capstone Project/Zillow/Clean.pkl')
+Clean = pd.read_pickle('zillowmodelcleandata.pkl')
 
 
 # In[178]:
 
 
-pickle.dump(Clean,open('zillowmodelcleandata.pkl','wb'))
+#pickle.dump(Clean,open('zillowmodelcleandata.pkl','wb'))
 
 
 # In[179]:
