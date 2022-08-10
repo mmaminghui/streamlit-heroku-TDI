@@ -103,10 +103,10 @@ def main():
     st.success('The rent-to-price ratio is {}%'.format(result))
 
     if st.button("About"):
-        st.text("This app is based on the web scraped transaction data (2022.1-2022.6, Baltimore County, MD) 
-                from Zillow.com")
-        st.text("Model Performance: Random Forest was selected as most effective algorithm 
-                with MAPE (mean_absolute_percentage_error) of 0.12.")
+        st.text("This app is based on the web scraped transaction data (2022.1-2022.6, Baltimore County, MD) from Zillow.com")  
+          
+        st.text("Model Performance: Random Forest was selected as most effective algorithm with MAPE (mean_absolute_percentage_error) of 0.12.")
+                
         st.text("Contact: Minghui Ma, minghui.ma@mg.thedataincubator.com")
 
 
